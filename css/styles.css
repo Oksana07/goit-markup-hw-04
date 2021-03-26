@@ -163,9 +163,10 @@ margin-right: 50px;
 /* Герой */
 
 .main-hiro {
-  background-color: #2f303a;
   padding-bottom: 200px;
   padding-top: 200px;
+  background-image: url(../images/heder.jpg);
+  background-color: #2f303a;
   }
 
 .conteiner.hiro {
