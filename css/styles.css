@@ -373,6 +373,7 @@ flex-basis: calc((100% - 40px) / 4 );
   border-radius: 50%;
   fill: #afb1b8;
 }
+
 .social-link:hover, 
 .social-link:focus {
 background-color: var(--accent-color);
@@ -401,8 +402,17 @@ color:var(--title-color)
 }
 
 .customers-item {
-  margin-left: 30px;
-  }
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 90px;
+margin-left: 30px;
+margin-bottom: 50px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+}
 
 .customers-link:hover,{
 .customers-link:focus 
