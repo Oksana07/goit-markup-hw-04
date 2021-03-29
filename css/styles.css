@@ -161,6 +161,7 @@ fill: var(--accent-color);
   display: inline-flex;
   align-items: center;
 }
+
 .icon {
 margin-right: 10px;
 }
@@ -416,9 +417,10 @@ box-sizing: border-box;
 border-radius: 4px;
 }
 
-.customers-link:hover,{
-.customers-link:focus 
-
+.customers-item:hover, 
+.customers-item:focus  {
+  border-color: var(--accent-color);
+  color: #2196F3; 
 }
 
 
