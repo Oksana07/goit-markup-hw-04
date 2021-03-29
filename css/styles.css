@@ -56,6 +56,12 @@ a {
   clip: rect(0 0 0 0)
 }
 
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+
+
 /* Шапка */
 .conteiner {
   width: 1200px;
@@ -419,8 +425,7 @@ border-radius: 4px;
 
 .customers-item:hover, 
 .customers-item:focus  {
-  border-color: var(--accent-color);
-  color: #2196F3; 
+border-color: var(--accent-color);
 }
 
 
