@@ -449,7 +449,17 @@ fill: var(--accent-color);
 
 .footer {
 background-color: #2f303a;
-padding: 60px 0;
+padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-box-info {
+  margin-right: 70px;
 }
 
 .footer .logo-studio {
@@ -471,8 +481,8 @@ display: inline-block;
 margin-top: 20px;
 }
 
-.footer-item {
-margin-bottom: 8px;
+.footer-item:not(:last-child){
+margin-bottom: 9px;
 }
 
 .footer .map {
@@ -489,25 +499,36 @@ color: rgba(255, 255, 255, 0.6);
 margin-bottom: 9px;
 }
 
-.social-title {
+.footer-title {
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+margin-bottom: 20px;
 color: var(--waite-bg-color)
 }
-.wrap-footer {
 
+.footer-social-list {
+  display: flex;
+} 
+
+.footer-social-item:not(:last-child) {
+margin-right: 10px;
 }
-.social-item {
-display: block;
-margin-right: 30px;
-flex-basis: calc((50% - 45px) / 2);
+
+.footer-social-item {
+width: 44px;
+height: 44px;
 }
 
-.fs-link {
-
+.footer-link-icon {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background-color: rgba(255, 255, 255, 0.1);
+fill: #ffffff;
+border-radius: 50%;
 }
 
 /* сторінка портфоліо */
